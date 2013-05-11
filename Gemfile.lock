@@ -91,6 +91,8 @@ GEM
       guard (>= 1.1)
       spork (>= 0.8.4)
       sys-proctable
+    haml (4.0.2)
+      tilt
     hike (1.2.2)
     i18n (0.6.1)
     journey (1.0.4)
@@ -205,6 +207,7 @@ DEPENDENCIES
   faker (= 1.0.1)
   guard-rspec (= 1.2.1)
   guard-spork (= 1.2.0)
+  haml (~> 4.0.2)
   jquery-rails (= 2.0.2)
   libnotify (= 0.5.9)
   pg (= 0.12.2)
